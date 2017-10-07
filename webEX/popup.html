@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- <img src="background.jpg" style=""> -->
+<!-- <h1> This is my first web extension!! </h1> -->
+<h2 id="text1" style="color: red"></h2>
+<h2 id="text2" style="color: black"></h2>
+<script src="typed.js"></script>
+<script>
+  $(document).ready(function(){
+    setTimeout(function(){
+      $("#text1").typed({
+        strings: ["This is my first web extension !!"],
+      typeSpeed: 40
+      })
+    }, 0);
+
+      setTimeout(function(){
+      $("#text2").typed({
+        strings: ["Cheers to techtonic by SRMKZILLA"],
+      typeSpeed: 50
+      })
+    }, 2000);
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+	"manifest_version" : 2,
+	"name" : "webEX",
+	"description" : "This is my fisrt web ext",
+	"version" : "1.0",
+	// icon
+	"chrome_url_overrides" : {
+		"newtab" : "popup.html"
+	} 
+}
